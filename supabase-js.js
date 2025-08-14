@@ -1,0 +1,1 @@
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.55.0/dist/umd/supabase.min.js"></script>
