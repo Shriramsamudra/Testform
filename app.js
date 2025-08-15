@@ -2,7 +2,7 @@
 const supabaseUrl = 'https://uyntgocoxdrzdqumlwfe.supabase.co';
 const supabaseAnonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InV5bnRnb2NveGRyemRxdW1sd2ZlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTUxNzczMDMsImV4cCI6MjA3MDc1MzMwM30.xWK9IeeJcWqp-gaDR2yO_hqscAsVgbJQ5sxTo2AUvfU';
 
-// Corrected line: Use the lowercase 'supabase' variable
+// This is the corrected line: Use the lowercase 'supabase' variable
 const supabase = window.supabase.createClient(supabaseUrl, supabaseAnonKey);
 
 const contactForm = document.getElementById('contactForm');
